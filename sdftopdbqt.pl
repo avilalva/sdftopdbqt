@@ -5,8 +5,8 @@ use warnings;
 use File::Basename;
 
 # Specify the input and output directories
-my $input_directory  = "D:/Anvitha";
-my $output_directory = "D:/Anvitha/pdbqt";  # Create a separate directory for PDBQT files
+my $input_directory  = "Path/where/sdf/files/present";
+my $output_directory = "path/to/output/pdbqt/files";  # Create a separate directory for PDBQT files
 
 # Get a list of all SDF files in the input directory
 my @sdf_files = glob("$input_directory/*.sdf");
